@@ -89,3 +89,40 @@ CREATE TABLE `payment` (
 - payment realised using PayPal and sandbox account
 - email notification realised by PHPMailer
 - MySQL is used for database
+
+## Set Up
+
+Create directory and files in root directory (_where are files ex. index.php and README.md_):
+```
+├───credentials
+│   ├───db-login.php
+│   ├───email-login.php
+├───paypal
+│   ├───client-id.php
+```
+
+db-login.php
+
+```php
+<?php
+    $login = '';  // your db login
+    $pass = ''; // your db password
+?>
+```
+
+email-login.php
+
+```php
+<?php
+    $email = ''; // your email
+    $pass = ''; // your email password
+?>
+```
+
+client-id.php
+
+```php
+<?php
+    $clientId = ''; // your paypal client id
+?>
+```
