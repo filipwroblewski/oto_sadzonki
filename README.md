@@ -1,4 +1,4 @@
-# Seedling Management System
+# Oto sadzonki (seedling management system)
 
 ## Overview
 
